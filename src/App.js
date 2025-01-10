@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { io } from "socket.io-client";
 import axios from "axios";
 
-const SERVER_URL = "http://localhost:5000";
+const SERVER_URL = "http://https://connectify-backend-pq4o.onrender.com:5000";
 const socket = io(SERVER_URL);
 
 function App() {
