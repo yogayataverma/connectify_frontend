@@ -94,7 +94,7 @@ function App() {
     <div className="min-h-screen bg-gray-100 flex justify-center py-10">
       {!isUsernameSet ? (
         <div className="w-full max-w-md bg-white shadow-lg rounded-lg p-8">
-          <h1 className="text-2xl font-bold text-center mb-6">Welcome to ChatApp</h1>
+          <h1 className="text-2xl font-bold text-center mb-6">Welcome to Connectify</h1>
           <form onSubmit={handleUsernameSubmit}>
             <input
               type="text"
