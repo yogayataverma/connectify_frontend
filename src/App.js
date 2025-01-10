@@ -48,7 +48,7 @@ function App() {
       socket.off("userConnected");
       socket.off("userDisconnected");
     };
-  }, [isUsernameSet]);
+  }, [isUsernameSet, username]);
 
   const sendMessage = () => {
     if (!newMessage.trim()) return;
